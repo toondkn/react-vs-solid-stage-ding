@@ -4,6 +4,8 @@ import { createPubSub } from './pubsub';
 describe('createPubSub', () => {
 
     // ✅ Make all these tests pass by writing your publish-subscribe implementation.
+    // Write your implementation in `./pubsub.ts`, not this file.
+    // This file is purely for testing your implementation.
 
     // Check if your implementation is correct by running `bun test` from anywhere inside the `./pubsub` directory.
     // This will print which parts of your implementation are correct.
