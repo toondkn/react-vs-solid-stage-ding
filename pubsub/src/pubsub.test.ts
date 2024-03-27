@@ -4,9 +4,10 @@ import { createPubSub } from './pubsub';
 describe('createPubSub', () => {
 
     // ✅ Make all these tests pass by writing your publish-subscribe implementation.
-    // Run the test by running the command `bun test` inside the `./pubsub` directory.
-    // Whenever you think your implementation will pass a test, remove ".todo" from the test definition.
-    // This will give you more verbose output should you need to debug.
+
+    // Check if your implementation is correct by running `bun test` from anywhere inside the `./pubsub` directory.
+    // This will print which parts of your implementation are correct.
+    // If you remove ".todo" from the test definition, bun's test runner will give you more verbose output should you need to debug.
 
     test.todo('changes can be subscribed to', () => {
         const p = createPubSub(0);
